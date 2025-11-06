@@ -1,0 +1,4 @@
+data_path: "data/reports"
+pinecone_index: "nextgen-chatbot-index"
+chunk_size: 1000
+chunk_overlap: 200

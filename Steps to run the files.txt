@@ -1,0 +1,33 @@
+Step 1
+
+mkdir nextgen-chatbot
+cd nextgen-chatbot
+
+Step 2
+
+python -m venv venv
+
+venv\Scripts\activate
+
+Step 3
+
+pip install -r requirements.txt
+
+step 4 - Replacement of pinecone
+
+pip install faiss-cpu
+ 
+
+step 5
+OpenAI → get your free API key → put it in .env:
+
+OPENAI_API_KEY=your_free_api_key_here
+
+I have used Free deepseek API from OPENROUTER_API_KEY
+
+step 6
+mkdir -p data/reports  -- put sample pdf file in this location
+
+step 7
+streamlit run src\app.py
+
